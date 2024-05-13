@@ -14,13 +14,12 @@ public class ContaTerminal {
         System.out.println("Por favor, digite seu numero da agencia e pressione enter.");
         String numeroAgencia = scanner.next();
 
-        Double saldoConta = 100.0;
+        Double saldoConta = 1000.0;
 
        System.out.println("Olá"+nomeCliente+
                           ", obrigado por criar uma conta em nosso banco, sua agência é"+numeroAgencia+
                           ", conta "+numeroConta+
                           " e seu saldo "+saldoConta+" já está disponível para saque");
-        //
-        
+                
     }
 }
