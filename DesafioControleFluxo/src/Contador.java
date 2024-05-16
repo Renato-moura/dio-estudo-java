@@ -2,42 +2,34 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) throws Exception {
-        
-        try (Scanner scanner = new Scanner(System.in)) {
-           try {
+        Scanner terminal = new Scanner(System.in);
+		System.out.println("Digite o primeiro parâmetro");
+		int parametroUm = terminal.nextInt();
+		System.out.println("Digite o segundo parâmetro");
+		int parametroDois = terminal.nextInt();
+		
+		try {
+			//chamando o método contendo a lógica de contagem
+			contar(parametroUm, parametroDois);
+		
+		}catch (ParametrosInvalidosException exception) {
+			System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+		}
+		
+	}
 
-                System.out.println("Digite um numero inteiro");
-                int parametroUm = scanner.nextInt();
-            
-                System.out.println("Digite um numero inteiro");
-                int parametroDois = scanner.nextInt();
-
-                try {
-                    System.out.println("dafdsaffa");
-                } catch (ParamentrosInvalidosException e) {
-                   System.out.println("dia");
-                }
-                
-            } catch (Exception e) {
-
-                System.out.println("entrada invalida não coresponde a um numero inteiro");
-           
-            } 
+	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
+		if (parametroUm > parametroDois)
+           throw new ParametrosInvalidosException();
+       		
+		int contagem = parametroDois - parametroUm;
+        for (int a=0; a<contagem;a++){
+            System.out.println("valor da diferença: "+(a+1));
         }
-        
-       
-    }
-    public class ParamentrosInvalidosException extends Exception {
+		
+	}
             
-    }
-    public static class InnerContador {
-    
-        
-    }  void validarParamentros(int parametroUm, int parametroDois) throws ParamentrosInvalidosException {
-        if (parametroUm > parametroDois) {
-            throw new ParamentrosInvalidosException();
-        }
-     }
-     
 }
+
+
 
