@@ -1,18 +1,26 @@
-## Getting Started
+## Segundo desafio java basico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este desafio consite em fazer uma estrutura em java de controle de fluxo aonde uma pessoa irá inserir dois numeros inteiro:
+- `Caso1` : a primeira entrada sempre deve ser menor que a segunda
+- `Caso2`: quando a segunda entrada for maior que a primeira laçar uma exceção personalizada.
+- `Caso3`: mostrar visualmente a diferença entre os numeros inseridos em forma de um laço.
 
-## Folder Structure
+## Resultado da atividade
 
-The workspace contains two folders by default, where:
+Ao final o programa deve mostra a o seguinte fluxo condicional:
+##
+insira o primeiro numero: 1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+insira o segundo numero: 4
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2
 
-## Dependency Management
+3
+##
+insira o primeiro numero: 3
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+insira o segundo numero: 1
+
+o segundo numero deve ser maior que o primeiro!
