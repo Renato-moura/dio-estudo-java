@@ -1,0 +1,13 @@
+## Desafio POO - Componentes Iphone
+
+Este desafio consite em criar um diagrama de classe para representar as funcionalidades de um Iphone:
+
+reprodutor musical: tocar(), pausar(), selecionarMusica(String musica)
+
+aparelho telefonico: ligar(String numero), atender(), iniciarCorreioVoz()
+
+navegador de internet: exibirPagina(String url), adicionarNovaAba(), atualizarPagina()
+
+[![](https://mermaid.ink/img/pako:eNptkk1OwzAQRq8SeRVEe4EskCrYdEFVUcQqm6k9TUc4M9HErqCld8f5aYkUvLEdf_F7Y_tirDg0hbEe2vaFoFKoS85SWzdHYcyWy5-n7A0bFReD6GtsyYKfR1YNKPqjvKPHgzBZmWc2cMIKnOiaAypj6CIlD8HeYELKRtRlWO6CQ_8YxILmD_d5A7GdfmiTgiVhGG3zXVDiKqv72Ri7Tqlz-TnVU5Ug41Yca1T5U4CA7HAqRWkXAn0WVST5kHP-H3h2InMuftGedAsV8b2SqH7CdjRUu5ETrPaQT7UieDrD7febglmY5F8DuXT1PbI04Yg1lqZIQwf6WZqSuxyku9h9szVF0IgLExuXih1fiikO4Fu8_gJ4Nrv1?type=png)](https://mermaid.live/edit#pako:eNptkk1OwzAQRq8SeRVEe4EskCrYdEFVUcQqm6k9TUc4M9HErqCld8f5aYkUvLEdf_F7Y_tirDg0hbEe2vaFoFKoS85SWzdHYcyWy5-n7A0bFReD6GtsyYKfR1YNKPqjvKPHgzBZmWc2cMIKnOiaAypj6CIlD8HeYELKRtRlWO6CQ_8YxILmD_d5A7GdfmiTgiVhGG3zXVDiKqv72Ri7Tqlz-TnVU5Ug41Yca1T5U4CA7HAqRWkXAn0WVST5kHP-H3h2InMuftGedAsV8b2SqH7CdjRUu5ETrPaQT7UieDrD7febglmY5F8DuXT1PbI04Yg1lqZIQwf6WZqSuxyku9h9szVF0IgLExuXih1fiikO4Fu8_gJ4Nrv1)
+
+Em seguida implementar as classes e interfaces
