@@ -1,12 +1,10 @@
 package com.desafio.desafiogof.model;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.annotation.Id;
 
-import jakarta.persistence.Entity;
 
-
-
-@Entity
+@EntityScan
 public class Endereco {
 
 	@Id
