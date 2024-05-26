@@ -1,16 +1,15 @@
 package com.desafio.desafiogof.model;
 
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.data.annotation.Id;
-
+import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 
 
 
-@EntityScan
-public class Cliente {
+@Entity
+public class Cliente{
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
